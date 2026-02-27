@@ -3,7 +3,7 @@ with open("emails/OutreachArgentina-20260227.html", encoding="utf-8") as f:
     outreach_html = f.read()
 
 # --- Line 91: Update the subject and variables ---
-subject = "GLOBALMIX launches in Argentina — Join the network"
+subject = "GLOBALMIX World Cup 2026 — Argentina Edition"
 html = template.render(
     newsletter_title=subject,
     name=name,
